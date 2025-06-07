@@ -48,7 +48,7 @@ let
     repo = "ollama";
     rev = "v${version}";
     #hash = "sha256-llsK/rMK1jf2uneqgon9gqtZcbC9PuCDxoYfC7Ta6PY=";
-    hash = ""
+    hash = "";
     fetchSubmodules = true;
   };
 
