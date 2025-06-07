@@ -43,11 +43,11 @@ let
   # don't forget to invalidate all hashes each update
   version = "0.9.0";
 
+    #hash = "sha256-llsK/rMK1jf2uneqgon9gqtZcbC9PuCDxoYfC7Ta6PY=";
   src = fetchFromGitHub {
     owner = "ollama";
     repo = "ollama";
     rev = "v${version}";
-    #hash = "sha256-llsK/rMK1jf2uneqgon9gqtZcbC9PuCDxoYfC7Ta6PY=";
     hash = "";
     fetchSubmodules = true;
   };
